@@ -1,0 +1,196 @@
+.main-container{
+    height: 550px;
+    max-width: 25%;
+    border: .3rem solid rgb(11, 125, 200);
+    background-color: black;
+    margin-left: 30%;
+    border-radius: 5%;
+    box-shadow:  0 0 4rem #fff, inset 0 0 1rem #fff, 0 0 2rem #3877FF
+    , 0 0 4rem #3877FF, inset 0 0 4rem #3877FF;
+  
+}
+.main-container,.h1{
+    font-size: 1.0rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(138, 151, 212)
+
+}
+ .small-box{
+    height: 50px;
+    max-width: 70%;
+    background-color: beige;
+    margin-left: 12%;
+    margin-right: 5%;
+    border:  #3877FF;
+    border-radius: 5%;
+    box-shadow:  0 0 2rem, inset 0 0 0rem, 0 0 1rem #3877FF
+    ,0 0 1rem #3877FF, inset 0 0 1rem #3877FF;
+    font-size: 3rem;
+    color: black;
+    font-weight: bolder;
+    padding: 8px;
+    text-align: right;
+    overflow-x: auto;
+}
+.first-row-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+    
+}
+.b1,.b2,.b3,.b4{
+    height: 8vh;
+    width: 3rem;
+    margin-left: 4%;
+    margin-right: 3%;
+    background-color: black; 
+    border-radius: 20%;
+    border-color: white; 
+    font-size: 90%;
+    font-weight: bolder;
+    color: red;
+
+}
+.sec-row-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8%;
+
+}
+.b5, .b6, .b7, .b8{
+    height: 8vh;
+    width: 3rem;
+    border-radius: 20%;
+    font-size: 90%;
+    margin-left: 4%;
+    margin-right: 3%;
+    background-color: black;
+    border-color: white;
+    font-weight: bolder;
+    color: red;
+
+}
+.third-row-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8%;
+}
+.b9, .b10, .b11,.b12{
+    height: 8vh;
+    width: 3rem;
+    border-radius: 20%;
+    font-size: 90%;
+    margin-left: 4%;
+    margin-right: 3%;
+    background-color: black;
+    border-color: white;
+    font-weight: bolder;
+    color: red;
+}
+.four-row-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8%;
+}
+.b13,.b14,.b15,.b16{
+    height: 8vh;
+    width: 3rem;
+    border-radius: 20%;
+    font-size: 90%;
+    margin-left: 4%;
+    margin-right: 3%;
+    background-color: black;
+    border-color: white;
+    font-weight: bolder;
+    color: red;
+}
+.five-row-button{
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8%;
+    
+}
+.b17,.b18,.b19,.b20{
+    height: 8vh;
+    width: 3rem;
+    border-radius: 20%;
+    font-size: 90%;
+    margin-left: 4%;
+    margin-right: 3%;
+    background-color: black;
+    border-color: white;
+    font-weight: bolder;
+    color: red;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+
+/* ================= RESPONSIVE ADD-ON ================= */
+
+/* Mobile devices */
+@media (max-width: 480px){
+
+    .main-container{
+        max-width: 95%;
+        margin-left: 2%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .small-box{
+        max-width: 95%;
+        font-size: 1.5rem;
+        height: 45px;
+    }
+
+    button{
+        width: 20%;
+        height: 6vh;
+        font-size: 0.8rem;
+    }
+}
+
+/* Tablet devices */
+@media (min-width: 481px) and (max-width: 768px){
+
+    .main-container{
+        max-width: 60%;
+        margin-left: 20%;
+        height: auto;
+    }
+
+    .small-box{
+        font-size: 2rem;
+    }
+
+    button{
+        width: 22%;
+        height: 7vh;
+    }
+}
+
+/* Laptop / Desktop */
+@media (min-width: 769px) and (max-width: 1200px){
+
+    .main-container{
+        max-width: 35%;
+        margin-left: 30%;
+    }
+}
+
+/* Large screens */
+@media (min-width: 1201px){
+
+    .main-container{
+        max-width: 25%;
+        margin-left: 35%;
+    }
+}
